@@ -43,7 +43,9 @@
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
+			<!--//参考升级书中的版本4.1.28.Final-->
 			<version>5.0.0.Alpha1</version>
+			<!--<version>4.1.28.Final</version>-->
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.netty/netty-example -->

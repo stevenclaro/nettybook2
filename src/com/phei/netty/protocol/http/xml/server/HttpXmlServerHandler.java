@@ -48,6 +48,7 @@ import com.phei.netty.protocol.http.xml.pojo.Order;
 public class HttpXmlServerHandler extends
 	SimpleChannelInboundHandler<HttpXmlRequest> {
 
+
     @Override
     public void messageReceived(final ChannelHandlerContext ctx,
 	    HttpXmlRequest xmlRequest) throws Exception {
